@@ -6,7 +6,74 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(4, 76, 109);
+    color: rgb(235, 234, 234);
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    background: gray;
+}
+.main_div .other_div2{
+    position: absolute;
+    width: 270px;
+    border-left: 2px solid rgb(5, 177, 42);
+    height: auto;
+    top: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    right: -300px;
+    background: #e6ffec;
+    transition: right 3s ease;
+    padding: 10px 10px; 
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.main_div .other_div2 .icon_div{
+    margin: 10px 0px;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(117, 116, 116);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.main_div .other_div2 .icon_div i{
+    font-size: 16px;
+    color: #7a7c7a;
+    
+    
+}
+.main_div .other_div2 .text_div{
+text-align: left;
+display: flex;
+width: 80%;
+font-size: 13px;
+color: #78847a;
+}
+.main_div .other_div2 .text_div i{
+   font-size: 29px;
+   background: #46b250;
+   color: #eafff0;
+   border-radius: 50%;
 
+}
+
+</style>
 </head>
 <body>
      <button onclick="aa()">
@@ -41,4 +108,5 @@
          </script>
 </body>
 </html>
+
 
