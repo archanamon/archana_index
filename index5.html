@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+     <button onclick="aa()">
+        <span>Click</span>
+    </button>
+   <div class="main_div">
+     <div class="other_div2">
+        <div class="text_div">
+            <i class="fa-solid fa-circle-check"></i><span>
+                Success!<br>Record updated successfully!
+            </span>
+         </div>
+         <div class="icon_div">
+             <span class="in" onclick="cc3()">x</span>
+         </div>
+   </div>
+         <script>
+            var g=document.getElementsByClassName("other_div2")[0];
+        function aa(){
+            g.style.right="475px";
+            setTimeout(function(){
+           
+            g.style.right="-300px";
+        
+        },5000
+    );
+        }
+        function cc3(){
+            g.style.right="-300px";
+        }
+        
+         </script>
+</body>
+</html>
